@@ -1,0 +1,22 @@
+neet-test
+│
+├ index.html
+├ style.css
+├ script.js
+│
+└ questions
+     ├ livingWorld.js
+     ├ biologicalClassification.js
+     ├ plantKingdom.js
+     ├ animalKingdom.js
+     ├ morphologyPlants.js
+     ├ anatomyPlants.js
+     ├ structuralAnimals.js
+     ├ cellUnit.js
+     ├ biomolecules.js
+     ├ cellCycle.js
+     ├ transportPlants.js
+     ├ mineralNutrition.js
+     ├ photosynthesis.js
+     ├ respirationPlants.js
+     └ plantGrowth.js

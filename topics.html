@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>NEET Practice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Select Topic</h1>
+
+<div class="topics">
+
+
+<button onclick="startTest('livingWorld')">The Living World</button>
+
+<button onclick="startTest('biologicalClassification')">Biological Classification</button>
+
+<button onclick="startTest('plantKingdom')">Plant Kingdom</button>
+
+<button onclick="startTest('animalKingdom')">Animal Kingdom</button>
+
+<button onclick="startTest('morphologyPlants')">Morphology of Flowering Plants</button>
+
+<button onclick="startTest('anatomyPlants')">Anatomy of Flowering Plants</button>
+
+<button onclick="startTest('structuralAnimals')">Structural Organisation in Animals</button>
+
+<button onclick="startTest('cellUnit')">Cell – The Unit of Life</button>
+
+<button onclick="startTest('biomolecules')">Biomolecules</button>
+
+<button onclick="startTest('cellCycle')">Cell Cycle and Cell Division</button>
+
+<button onclick="startTest('transportPlants')">Transport in Plants</button>
+
+<button onclick="startTest('mineralNutrition')">Mineral Nutrition</button>
+
+<button onclick="startTest('photosynthesis')">Photosynthesis in Higher Plants</button>
+
+<button onclick="startTest('respirationPlants')">Respiration in Plants</button>
+
+<button onclick="startTest('plantGrowth')">Plant Growth and Development</button>
+</div>
+
+<script>
+
+function startTest(topic){
+
+localStorage.setItem("selectedTopic",topic)
+
+window.location.href="index.html"
+
+}
+
+</script>
+
+</body>
+</html>
